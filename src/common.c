@@ -1,6 +1,13 @@
 #include "common.h"
 #include "thread_shared.h"
 
+#ifdef __linux__
+#define SEND_FLAGS (MSG_NOSIGNAL)
+#else
+#define SEND_FLAGS (0)
+#endif
+
+
 const int yes = 1;
 
 extern char* yed_get_var(char*);
@@ -126,7 +133,7 @@ int send_all(int fd, void *buff, int n) {
     total_sent = 0;
 
     while (total_sent < n) {
-        n_sent = send(fd, buff, n, MSG_NOSIGNAL);
+        n_sent = send(fd, buff, n, SEND_FLAGS);
         if (n_sent <= 0) {
             return n_sent;
         }

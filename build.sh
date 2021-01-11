@@ -4,7 +4,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd ${DIR}
 
-C_FLAGS="-fPIC -O0 -g -Wall -Werror -Wno-format-truncation"
+C_FLAGS="-fPIC -O0 -g -Wall -Werror -Wno-unused-function"
 LD_FLAGS="-shared -fPIC -lyed"
 
 pids=()

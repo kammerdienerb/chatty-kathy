@@ -44,6 +44,8 @@ static ck_user *add_user(char *id) {
 
     user = NULL;
 
+    memset(&new_user, 0, sizeof(new_user));
+
     pthread_mutex_lock(&user_mtx);
     it = tree_lookup(users, id);
     if (!tree_it_good(it)) {
@@ -216,7 +218,7 @@ static void *server_connection_thread(void *arg) {
 
     if (get_user(id_buff)) {
         msg.kind = EMSG_PROTOCOL_DENY_DUP;
-        if (send(sock_fd, &msg, sizeof(msg), MSG_NOSIGNAL) == -1) {
+        if (send_all(sock_fd, &msg, sizeof(msg)) == -1) {
             SET_ERR(STAT_SERVER_RUN_ERR, "send error -- %d", errno);
             errno = 0;
         }

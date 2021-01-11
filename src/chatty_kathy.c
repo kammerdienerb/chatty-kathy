@@ -98,6 +98,7 @@ void ck_start_client(int n_args, char **args) {
 
     if (!init_common(&C.common)) {
         PRINT_MSG();
+        SET_STAT(STAT_NOT_STARTED);
         return;
     }
 
@@ -114,7 +115,7 @@ void ck_start_client(int n_args, char **args) {
         yed_cerr("chatty-kathy-id empty");
         return;
     }
-    strncpy(C.id, id, sizeof(C.id));
+    strcpy(C.id, id);
 
     yed_cprint("starting chatty-kathy client..");
     SET_STAT(STAT_CLIENT_STARTING);
@@ -152,6 +153,7 @@ void ck_start_server(int n_args, char **args) {
 
     if (!init_common(&S.common)) {
         PRINT_MSG();
+        SET_STAT(STAT_NOT_STARTED);
         return;
     }
 
@@ -275,6 +277,7 @@ LOG_CMD_ENTER("chatty-kathy-client");
             yed_cerr("invalid status");
 del:;
             yed_delete_event_handler(ck_pump_client);
+            SET_STAT(STAT_NOT_STARTED);
     }
 
 LOG_EXIT();
@@ -311,6 +314,7 @@ LOG_CMD_ENTER("chatty-kathy-server");
             yed_cerr("invalid status");
 del:;
             yed_delete_event_handler(ck_pump_server);
+            SET_STAT(STAT_NOT_STARTED);
     }
 
 LOG_EXIT();

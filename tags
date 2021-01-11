@@ -1,0 +1,172 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+ARRAY_DEFAULT_CAP	src/array.h	/^#define ARRAY_DEFAULT_CAP /;"	d
+C	src/client.c	/^ck_client C;$/;"	v	typeref:typename:ck_client
+EMSG_BUFFER	src/message.h	/^#define EMSG_BUFFER /;"	d
+EMSG_CHAT	src/message.h	/^#define EMSG_CHAT /;"	d
+EMSG_JUMP	src/message.h	/^#define EMSG_JUMP /;"	d
+EMSG_PROTOCOL_DENY_DUP	src/message.h	/^#define EMSG_PROTOCOL_DENY_DUP /;"	d
+EMSG_PROTOCOL_IDENTIFY	src/message.h	/^#define EMSG_PROTOCOL_IDENTIFY /;"	d
+GET_STAT	src/thread_shared.h	/^#define GET_STAT(/;"	d
+ID_MAX	src/message.h	/^#define ID_MAX /;"	d
+PRINT_MSG	src/thread_shared.h	/^#define PRINT_MSG(/;"	d
+S	src/server.c	/^ck_server            S;$/;"	v	typeref:typename:ck_server
+SET_ERR	src/thread_shared.h	/^#define SET_ERR(/;"	d
+SET_MSG	src/thread_shared.h	/^#define SET_MSG(/;"	d
+SET_STAT	src/thread_shared.h	/^#define SET_STAT(/;"	d
+STAT_CLIENT_RUNNING	src/common.h	/^#define STAT_CLIENT_RUNNING /;"	d
+STAT_CLIENT_RUN_ERR	src/common.h	/^#define STAT_CLIENT_RUN_ERR /;"	d
+STAT_CLIENT_STARTED	src/common.h	/^#define STAT_CLIENT_STARTED /;"	d
+STAT_CLIENT_STARTING	src/common.h	/^#define STAT_CLIENT_STARTING /;"	d
+STAT_CLIENT_START_ERR	src/common.h	/^#define STAT_CLIENT_START_ERR /;"	d
+STAT_CONFIG_ERR	src/common.h	/^#define STAT_CONFIG_ERR /;"	d
+STAT_NOT_STARTED	src/common.h	/^#define STAT_NOT_STARTED /;"	d
+STAT_SERVER_RUNNING	src/common.h	/^#define STAT_SERVER_RUNNING /;"	d
+STAT_SERVER_RUN_ERR	src/common.h	/^#define STAT_SERVER_RUN_ERR /;"	d
+STAT_SERVER_STARTED	src/common.h	/^#define STAT_SERVER_STARTED /;"	d
+STAT_SERVER_STARTING	src/common.h	/^#define STAT_SERVER_STARTING /;"	d
+STAT_SERVER_START_ERR	src/common.h	/^#define STAT_SERVER_START_ERR /;"	d
+Self	src/chatty_kathy.c	/^yed_plugin *Self;$/;"	v	typeref:typename:yed_plugin *
+THREAD_SHARED	src/chatty_kathy.c	/^#define THREAD_SHARED /;"	d	file:
+THREAD_SHARED	src/client.c	/^#define THREAD_SHARED /;"	d	file:
+THREAD_SHARED	src/common.c	/^#define THREAD_SHARED /;"	d	file:
+THREAD_SHARED	src/server.c	/^#define THREAD_SHARED /;"	d	file:
+__ARRAY_H__	src/array.h	/^#define __ARRAY_H__$/;"	d
+__CLIENT_H__	src/client.h	/^#define __CLIENT_H__$/;"	d
+__COMMON_H__	src/common.h	/^#define __COMMON_H__$/;"	d
+__MESSAGE_H__	src/message.h	/^#define __MESSAGE_H__$/;"	d
+__SERVER_H__	src/server.h	/^#define __SERVER_H__$/;"	d
+__THREAD_SHARED_H__	src/thread_shared.h	/^#define __THREAD_SHARED_H__$/;"	d
+__anon128f8ee00108	src/thread_shared.h	/^typedef struct {$/;"	s
+__anon3ef696e40108	src/server.c	/^typedef struct {$/;"	s	file:
+__anon3ef696e90108	src/server.h	/^typedef struct {$/;"	s
+__anon49fcdd910108	src/array.h	/^typedef struct {$/;"	s
+__anon70586b7b0108	src/common.h	/^typedef struct {$/;"	s
+__anon70586b7b0208	src/common.h	/^typedef struct {$/;"	s
+__anon7f83dbd10108	src/client.h	/^typedef struct {$/;"	s
+__anona88c09970108	src/message.h	/^typedef struct {$/;"	s
+__anona88c09970208	src/message.h	/^typedef struct {$/;"	s
+_array_copy	src/array.c	/^void _array_copy(array_t *dst, array_t *src) {$/;"	f	typeref:typename:void
+_array_delete	src/array.c	/^void _array_delete(array_t *array, int idx) {$/;"	f	typeref:typename:void
+_array_free	src/array.c	/^void _array_free(array_t *array) {$/;"	f	typeref:typename:void
+_array_grow_if_needed	src/array.c	/^void _array_grow_if_needed(array_t *array) {$/;"	f	typeref:typename:void
+_array_grow_if_needed_to	src/array.c	/^void _array_grow_if_needed_to(array_t *array, int new_cap) {$/;"	f	typeref:typename:void
+_array_insert	src/array.c	/^void * _array_insert(array_t *array, int idx, void *elem) {$/;"	f	typeref:typename:void *
+_array_make	src/array.c	/^array_t _array_make(int elem_size) {$/;"	f	typeref:typename:array_t
+_array_make_with_cap	src/array.c	/^array_t _array_make_with_cap(int elem_size, int initial_cap) {$/;"	f	typeref:typename:array_t
+_array_next_elem	src/array.c	/^void * _array_next_elem(array_t *array) {$/;"	f	typeref:typename:void *
+_array_push	src/array.c	/^void * _array_push(array_t *array, void *elem) {$/;"	f	typeref:typename:void *
+_array_push_n	src/array.c	/^void * _array_push_n(array_t *array, void *elems, int n) {$/;"	f	typeref:typename:void *
+_array_zero_term	src/array.c	/^void _array_zero_term(array_t *array) {$/;"	f	typeref:typename:void
+add_user	src/server.c	/^static ck_user *add_user(char *id) {$/;"	f	typeref:typename:ck_user *	file:
+array_clear	src/array.h	/^#define array_clear(/;"	d
+array_copy	src/array.h	/^#define array_copy(/;"	d
+array_data	src/array.h	/^#define array_data(/;"	d
+array_delete	src/array.h	/^#define array_delete(/;"	d
+array_free	src/array.h	/^#define array_free(/;"	d
+array_grow_if_needed	src/array.h	/^#define array_grow_if_needed(/;"	d
+array_insert	src/array.h	/^#define array_insert(/;"	d
+array_item	src/array.h	/^#define array_item(/;"	d
+array_last	src/array.h	/^#define array_last(/;"	d
+array_len	src/array.h	/^#define array_len(/;"	d
+array_make	src/array.h	/^#define array_make(/;"	d
+array_make_with_cap	src/array.h	/^#define array_make_with_cap(/;"	d
+array_next_elem	src/array.h	/^#define array_next_elem(/;"	d
+array_pop	src/array.h	/^#define array_pop(/;"	d
+array_push	src/array.h	/^#define array_push(/;"	d
+array_push_n	src/array.h	/^#define array_push_n(/;"	d
+array_rtraverse	src/array.h	/^#define array_rtraverse(/;"	d
+array_t	src/array.h	/^} array_t;$/;"	t	typeref:struct:__anon49fcdd910108
+array_traverse	src/array.h	/^#define array_traverse(/;"	d
+array_traverse_from	src/array.h	/^#define array_traverse_from(/;"	d
+array_zero_term	src/array.h	/^#define array_zero_term(/;"	d
+capacity	src/array.h	/^    int   capacity;$/;"	m	struct:__anon49fcdd910108	typeref:typename:int
+ck_client	src/client.h	/^} ck_client;$/;"	t	typeref:struct:__anon7f83dbd10108
+ck_common	src/common.h	/^} ck_common;$/;"	t	typeref:struct:__anon70586b7b0108
+ck_emessage	src/message.h	/^} ck_emessage;$/;"	t	typeref:struct:__anona88c09970108
+ck_fifo	src/common.h	/^} ck_fifo;$/;"	t	typeref:struct:__anon70586b7b0208
+ck_imessage	src/message.h	/^} ck_imessage;$/;"	t	typeref:struct:__anona88c09970208
+ck_pump_client	src/chatty_kathy.c	/^yed_event_handler ck_pump_client;$/;"	v	typeref:typename:yed_event_handler
+ck_pump_handler_client	src/chatty_kathy.c	/^void ck_pump_handler_client(yed_event *event) {$/;"	f	typeref:typename:void
+ck_pump_handler_server	src/chatty_kathy.c	/^void ck_pump_handler_server(yed_event *event) {$/;"	f	typeref:typename:void
+ck_pump_server	src/chatty_kathy.c	/^yed_event_handler ck_pump_server;$/;"	v	typeref:typename:yed_event_handler
+ck_send	src/chatty_kathy.c	/^void ck_send(int n_args, char **args) {$/;"	f	typeref:typename:void
+ck_server	src/server.h	/^} ck_server;$/;"	t	typeref:struct:__anon3ef696e90108
+ck_start_client	src/chatty_kathy.c	/^void ck_start_client(int n_args, char **args) {$/;"	f	typeref:typename:void
+ck_start_server	src/chatty_kathy.c	/^void ck_start_server(int n_args, char **args) {$/;"	f	typeref:typename:void
+ck_thread_shared	src/thread_shared.h	/^} ck_thread_shared;$/;"	t	typeref:struct:__anon128f8ee00108
+ck_user	src/server.c	/^} ck_user;$/;"	t	typeref:struct:__anon3ef696e40108	file:
+client_run_thread	src/chatty_kathy.c	/^static void *client_run_thread(void *arg)   { run_client();   return NULL; }$/;"	f	typeref:typename:void *	file:
+client_start_thread	src/chatty_kathy.c	/^static void *client_start_thread(void *arg) { start_client(); return NULL; }$/;"	f	typeref:typename:void *	file:
+common	src/client.h	/^    ck_common common;$/;"	m	struct:__anon7f83dbd10108	typeref:typename:ck_common
+common	src/server.h	/^    ck_common common;$/;"	m	struct:__anon3ef696e90108	typeref:typename:ck_common
+content_len	src/message.h	/^    int      content_len;$/;"	m	struct:__anona88c09970208	typeref:typename:int
+contents	src/message.h	/^    char    *contents; \/* malloc()'d buffer *\/$/;"	m	struct:__anona88c09970208	typeref:typename:char *
+data	src/array.h	/^    void *data;$/;"	m	struct:__anon49fcdd910108	typeref:typename:void *
+del_user	src/server.c	/^static void del_user(char *id) {$/;"	f	typeref:typename:void	file:
+elem_size	src/array.h	/^    int   elem_size;$/;"	m	struct:__anon49fcdd910108	typeref:typename:int
+empty_inbox	src/chatty_kathy.c	/^static void empty_inbox(void) {$/;"	f	typeref:typename:void	file:
+empty_outbox	src/client.c	/^static int empty_outbox(void) {$/;"	f	typeref:typename:int	file:
+fd	src/server.c	/^    int  fd;$/;"	m	struct:__anon3ef696e40108	typeref:typename:int	file:
+fifo_get	src/common.c	/^int fifo_get(ck_fifo *fifo, void *dst) {$/;"	f	typeref:typename:int
+fifo_make	src/common.h	/^#define fifo_make(/;"	d
+fifo_put	src/common.c	/^void fifo_put(ck_fifo *fifo, void *item) {$/;"	f	typeref:typename:void
+get_backlog	src/common.c	/^int get_backlog(void) {$/;"	f	typeref:typename:int
+get_in_addr	src/common.c	/^void *get_in_addr(struct sockaddr *sa) {$/;"	f	typeref:typename:void *
+get_or_make_buff	src/chatty_kathy.c	/^static yed_buffer *get_or_make_buff(char *name) {$/;"	f	typeref:typename:yed_buffer *	file:
+get_port	src/common.c	/^int get_port(void) {$/;"	f	typeref:typename:int
+get_server	src/common.c	/^int get_server(char *server) {$/;"	f	typeref:typename:int
+get_user	src/server.c	/^static ck_user *get_user(char *id) {$/;"	f	typeref:typename:ck_user *	file:
+handle_emessage	src/server.c	/^static int handle_emessage(ck_user *user, uint8_t msg_kind) {$/;"	f	typeref:typename:int	file:
+handle_emessages	src/client.c	/^static int handle_emessages(void) {$/;"	f	typeref:typename:int	file:
+hints	src/common.h	/^    struct addrinfo  hints;$/;"	m	struct:__anon70586b7b0108	typeref:struct:addrinfo
+id	src/client.h	/^    char      id[ID_MAX];$/;"	m	struct:__anon7f83dbd10108	typeref:typename:char[]
+id	src/server.c	/^    char id[ID_MAX];$/;"	m	struct:__anon3ef696e40108	typeref:typename:char[]	file:
+identify	src/client.c	/^static int identify(void) {$/;"	f	typeref:typename:int	file:
+inbox	src/client.h	/^    ck_fifo   inbox;$/;"	m	struct:__anon7f83dbd10108	typeref:typename:ck_fifo
+init_common	src/common.c	/^int init_common(ck_common *common) {$/;"	f	typeref:typename:int
+inline	src/server.c	/^#define inline /;"	d	file:
+items	src/common.h	/^    array_t         items;$/;"	m	struct:__anon70586b7b0208	typeref:typename:array_t
+kind	src/message.h	/^    uint8_t  kind;$/;"	m	struct:__anona88c09970208	typeref:typename:uint8_t
+kind	src/message.h	/^    uint8_t kind;$/;"	m	struct:__anona88c09970108	typeref:typename:uint8_t
+msg	src/thread_shared.h	/^    char            msg[4096];$/;"	m	struct:__anon128f8ee00108	typeref:typename:char[4096]
+msg_handled	src/thread_shared.h	/^    int             msg_handled;$/;"	m	struct:__anon128f8ee00108	typeref:typename:int
+msg_kind	src/thread_shared.h	/^    int             msg_kind; \/* 0 = info, 1 = err *\/$/;"	m	struct:__anon128f8ee00108	typeref:typename:int
+mtx	src/common.h	/^    pthread_mutex_t mtx;$/;"	m	struct:__anon70586b7b0208	typeref:typename:pthread_mutex_t
+mtx	src/thread_shared.h	/^    pthread_mutex_t mtx;$/;"	m	struct:__anon128f8ee00108	typeref:typename:pthread_mutex_t
+next_power_of_2	src/array.c	/^static uint64_t next_power_of_2(uint64_t x) {$/;"	f	typeref:typename:uint64_t	file:
+outbox	src/client.h	/^    ck_fifo   outbox;$/;"	m	struct:__anon7f83dbd10108	typeref:typename:ck_fifo
+outbox	src/server.h	/^    ck_fifo   outbox;$/;"	m	struct:__anon3ef696e90108	typeref:typename:ck_fifo
+port	src/common.h	/^    int              port;$/;"	m	struct:__anon70586b7b0108	typeref:typename:int
+port_str	src/common.h	/^    char             port_str[32];$/;"	m	struct:__anon70586b7b0108	typeref:typename:char[32]
+read_message	src/client.c	/^static int read_message(void) {$/;"	f	typeref:typename:int	file:
+recv_all	src/common.c	/^int recv_all(int fd, void *buff, int n) {$/;"	f	typeref:typename:int
+run_client	src/client.c	/^int run_client(void) {$/;"	f	typeref:typename:int
+run_server	src/server.c	/^int run_server(void) {$/;"	f	typeref:typename:int
+send_all	src/common.c	/^int send_all(int fd, void *buff, int n) {$/;"	f	typeref:typename:int
+server	src/common.h	/^    char             server[4096];$/;"	m	struct:__anon70586b7b0108	typeref:typename:char[4096]
+server_connection_thread	src/server.c	/^static void *server_connection_thread(void *arg) {$/;"	f	typeref:typename:void *	file:
+server_dispatch_thread	src/server.c	/^static void *server_dispatch_thread(void *arg) {$/;"	f	typeref:typename:void *	file:
+server_handle_user	src/server.c	/^static void server_handle_user(ck_user *user) {$/;"	f	typeref:typename:void	file:
+server_run_thread	src/chatty_kathy.c	/^static void *server_run_thread(void *arg)   { run_server();   return NULL; }$/;"	f	typeref:typename:void *	file:
+server_start_thread	src/chatty_kathy.c	/^static void *server_start_thread(void *arg) { start_server(); return NULL; }$/;"	f	typeref:typename:void *	file:
+should_free	src/array.h	/^    int   should_free;$/;"	m	struct:__anon49fcdd910108	typeref:typename:int
+sock_fd	src/common.h	/^    int              sock_fd;$/;"	m	struct:__anon70586b7b0108	typeref:typename:int
+start_client	src/client.c	/^int start_client(void) {$/;"	f	typeref:typename:int
+start_server	src/server.c	/^int start_server(void) {$/;"	f	typeref:typename:int
+status	src/thread_shared.h	/^    int             status;$/;"	m	struct:__anon128f8ee00108	typeref:typename:int
+str_t	src/server.c	/^typedef char *str_t;$/;"	t	typeref:typename:char *	file:
+tid	src/chatty_kathy.c	/^pthread_t   tid;$/;"	v	typeref:typename:pthread_t
+ts	src/common.h	/^    ck_thread_shared ts;$/;"	m	struct:__anon70586b7b0108	typeref:typename:ck_thread_shared
+used	src/array.h	/^    int   used;$/;"	m	struct:__anon49fcdd910108	typeref:typename:int
+user_id	src/message.h	/^    char     user_id[ID_MAX];$/;"	m	struct:__anona88c09970208	typeref:typename:char[]
+user_id_len	src/message.h	/^    int      user_id_len;$/;"	m	struct:__anona88c09970208	typeref:typename:int
+user_mtx	src/server.c	/^pthread_mutex_t      user_mtx;$/;"	v	typeref:typename:pthread_mutex_t
+yed_plugin_boot	src/chatty_kathy.c	/^int yed_plugin_boot(yed_plugin *self) {$/;"	f	typeref:typename:int
+yes	src/common.c	/^const int yes = 1;$/;"	v	typeref:typename:const int

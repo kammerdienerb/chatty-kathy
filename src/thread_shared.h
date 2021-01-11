@@ -22,8 +22,9 @@ pthread_mutex_lock(&THREAD_SHARED.mtx); {                  \
 #define SET_MSG(...)                                       \
 do {                                                       \
 pthread_mutex_lock(&THREAD_SHARED.mtx); {                  \
-    snprintf(THREAD_SHARED.msg, sizeof(THREAD_SHARED.msg), \
-             __VA_ARGS__);                                 \
+    if (snprintf(THREAD_SHARED.msg,                        \
+                 sizeof(THREAD_SHARED.msg),                \
+                 __VA_ARGS__)) {}                          \
     THREAD_SHARED.msg_kind    = 0;                         \
     THREAD_SHARED.msg_handled = 0;                         \
 } pthread_mutex_unlock(&THREAD_SHARED.mtx);                \
@@ -32,8 +33,9 @@ pthread_mutex_lock(&THREAD_SHARED.mtx); {                  \
 #define SET_ERR(stat, ...)                                 \
 do {                                                       \
 pthread_mutex_lock(&THREAD_SHARED.mtx); {                  \
-    snprintf(THREAD_SHARED.msg, sizeof(THREAD_SHARED.msg), \
-             __VA_ARGS__);                                 \
+    if (snprintf(THREAD_SHARED.msg,                        \
+                 sizeof(THREAD_SHARED.msg),                \
+                 __VA_ARGS__)) {}                          \
     THREAD_SHARED.msg_kind    = 1;                         \
     THREAD_SHARED.msg_handled = 0;                         \
     THREAD_SHARED.status      = (stat);                    \
